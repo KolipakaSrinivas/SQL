@@ -27,9 +27,19 @@ VALUES
 (2),
 (3)
 ;
-SELECT age FROM forge;
+SELECT * FROM forge;
+
+CREATE TABLE salary(
+id INT PRIMARY KEY,
+name VARCHAR(20),
+salary INT DEFAULT 2500
+);
+
+INSERT INTO salary
+VALUES
+(1,'SRI',2500),
+(2,'SRINI',3000),
+(3,'SRINU');
 
 
-
-
-
+SELECT * FROM salary;
