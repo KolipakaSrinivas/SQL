@@ -17,8 +17,7 @@ VALUES
 (103,"dhruv",98,"A","Delhi"),
 (104,"chetan",85,"B","Mumbai"),
 (105,"emanuel",12,"F","Delhi"),
-(106,"faran",82,"B","Delhi")
-;
+(106,"faran",82,"B","Delhi");
 
 SELECT * FROM college;
 SELECT name, marks FROM college;
